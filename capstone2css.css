@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f2f4f8;
+    color: #222;
+    line-height: 1.65;
+    scroll-behavior: smooth;
+}
+
+/* Smooth container spacing */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+/* Navbar Improvements */
+.navbar {
+    background: #ffffff;
+    padding: 18px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a64df;
+    letter-spacing: 1px;
+}
+
+.nav-links a {
+    padding: 7px 8px;
+    font-weight: 600;
+    transition: 0.25s;
+    border-radius: 6px;
+}
+
+.nav-links a:hover {
+    color: #1a64df;
+    background: rgba(26, 115, 232, 0.08);
+}
+
+/* Auth Buttons */
+.btn {
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.login {
+    border: 2px solid #1a64df;
+}
+
+.signup {
+    background: #1a64df;
+    box-shadow: 0 4px 10px rgba(26, 115, 232, 0.4);
+}
+
+/* Hero Section Enhanced */
+.hero {
+    padding: 70px 40px;
+    gap: 50px;
+}
+
+.hero-content h1 {
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    color: #1a64df;
+}
+
+.hero-content p {
+    font-size: 1.15rem;
+    color: #444;
+}
+
+.cta-btn {
+    padding: 16px 40px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    box-shadow: 0 8px 20px rgba(26, 115, 232, 0.5);
+}
+
+.cta-btn:hover {
+    transform: translateY(-3px);
+}
+
+/* Hero Image */
+.hero-image img {
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+/* Search Bar Improved */
+.search-bar {
+    gap: 18px;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.search-bar input,
+.search-bar select {
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 16px 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Category Cards Enhanced */
+.category-card {
+    padding: 22px 12px;
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-7px);
+}
+
+/* Restaurant Cards */
+.restaurant-card {
+    border-radius: 14px;
+    transition: 0.3s;
+}
+
+.restaurant-card img {
+    height: 220px;
+}
+
+/* Promo Section */
+.promos {
+    background: #e4edff;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+    padding: 35px 25px;
+    border-radius: 14px;
+}
+
+/* App Download */
+.app-download {
+    padding: 50px;
+    border-radius: 16px;
+}
+
+/* Footer */
+footer {
+    background: #0b3b8b;
+    padding: 45px;
+}
+
+.footer-bottom {
+    margin-top: 35px;
+}
+
+
